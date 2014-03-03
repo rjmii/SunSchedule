@@ -1,0 +1,1 @@
+The purpose of this project is to create a clock app that give its time relative to the sunrise and sunset time of a given location. This project is released under the GPL V 3. Please see the license file for details.
