@@ -35,9 +35,13 @@
         <meta name="description" content="An app that provides the next Sunrise and Sunset time for your current location">
         <meta name="author" content="Robert Joseph McCleary II">
         <title>Next Sunrise and Sunset</title>
+        <script src="js\DegTrig.js"></script>
+		<script src="js\geolocation.js"></script>
+		<script src="js\sunrise.js"></script>
+		<script src="js\sunset.js"></script>
     </head>
-    <body>
-        <h1>Loading</h1>
-        <h1>Loading</h1>
+    <body onload="getLocation()">
+        <h1 id='sunrise'>Loading</h1>
+        <h1 id='sunset'>Loading</h1>
     </body>
 </html>
