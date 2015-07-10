@@ -135,6 +135,10 @@ function calcSunset(dayOffset, lat, lon) {
 	if (sunsetTimeH < 0) {
 		sunsetTimeH = sunsetTimeH + 12;
 	}
+	if (sunsetTimeM < 10)
+	{
+		sunsetTimeM = '0' + sunsetTimeM;
+	}
 	displaySunsetTime = sunsetTimeH + ':' + sunsetTimeM + ' PM';
 	sunsetTime = new Date(0, 0, 0, sunsetTimeH, sunsetTimeM, 0, 0);
 	//currentTime = new Date(0, 0, 0, now.getHours(), now.getMinutes(), 0, 0);

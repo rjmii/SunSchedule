@@ -130,6 +130,10 @@ function calcSunrise(dayOffset, lat, lon) {
 	sunriseTimeH = Math.floor(localTr);
 	sunriseTimeM = Math.floor((localTr - sunriseTimeH) * 60);
 	displaySunriseTime = sunriseTimeH + ':' + sunriseTimeM + ' AM';
+	if (sunriseTimeM < 10)
+	{
+		sunriseTimeM = '0' + sunriseTimeM;
+	}
 	sunriseTime = new Date(0, 0, 0, sunriseTimeH, sunriseTimeM, 0, 0);
 	//currentTime = new Date(0, 0, 0, now.getHours(), now.getMinutes(), 0, 0);
 	return {
