@@ -135,6 +135,10 @@ function calcSunset(dayOffset, lat, lon) {
 	if (sunsetTimeH < 0) {
 		sunsetTimeH = sunsetTimeH + 12;
 	}
+	else if (sunsetTimeH > 12)
+	{
+		sunsetTimeH = sunsetTimeH - 12;
+	}
 	if (sunsetTimeM < 10)
 	{
 		sunsetTimeM = '0' + sunsetTimeM;
