@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# 2015-07-14 v1.0.0
+/sunschedule/css/bootstrap.min.css
+/sunschedule/css/bootstrap-theme.min.css
+/sunschedule/js/angular.min.js
+/sunschedule/js/degtrig.js
+/sunschedule/js/geolocation.js
+/sunschedule/js/sunrise.js
+/sunschedule/js/sunset.js
+
+NETWORK:
+
+FALLBACK:
