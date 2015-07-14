@@ -34,14 +34,17 @@
         <meta name="keywords" content="Sunrise, Sunset, Times">
         <meta name="description" content="An app that provides the next Sunrise and Sunset time for your current location">
         <meta name="author" content="Robert Joseph McCleary II">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Next Sunrise and Sunset</title>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
         <script src="JS/DegTrig.js"></script>
 		<script src="JS/GeoLocation.js"></script>
 		<script src="JS/SunRise.js"></script>
 		<script src="JS/SunSet.js"></script>
     </head>
-    <body onload="getLocation()">
+    <body onload="getLocation()" class="container-fluid">
         <h1 id='sunrise'>Loading</h1>
         <h1 id='sunset'>Loading</h1>
     </body>
