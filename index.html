@@ -33,11 +33,10 @@
         <meta charset="UTF-8" />
         <meta name="keywords" content="Sunrise, Sunset, Times" />
         <meta name="description" content="An app that provides the next Sunrise and Sunset time for your current location" />
-        <meta name="author" content="Robert Joseph McCleary II" />
+        <meta name="author" content="Robert McCleary" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <title>Get the next sunrise and sunset for your current location</title>        
         <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
         <script src="js/angular.min.js"></script>
         <script src="js/degtrig.js"></script>
 		<script src="js/geolocation.js"></script>
@@ -45,6 +44,7 @@
 		<script src="js/sunset.js"></script>
     </head>
     <body onload="getLocation()" class="container-fluid">
+        <p>This app will give you the next sunrise and sunset time for your current location. You need to accept your browser prompt for it to work.</p>
         <h1 id='sunrise'>Loading</h1>
         <h1 id='sunset'>Loading</h1>
     </body>
