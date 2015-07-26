@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="keywords" content="Sunrise, Sunset, Times">
+        <meta name="description" content="An app that provides the next Sunrise and Sunset time for your current location">
+        <meta name="author" content="Robert Joseph McCleary II">
+		<title>Next Sunrise and Sunset</title>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.3.0/base-min.css">
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.3.0/menus-min.css">
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <script src="deployed.js"></script>
+        <script src="google.js"></script>	
+	</head>
+	<body onload="getLocation()">
+		<div id='container' class="box effect8">
+			<header id='ads'>
+                <a href="http://www.dreamhost.com/r.cgi?1496413" target="_blank"><img id="ad" src="img/DreamHost468x60-c.gif" /></a>
+			</header>
+			<section id='sunschedule'>
+                <p>Welcome the the SunSchedule App. Accept your browser prompt for the app to see your location and give you the next Sunrise and Sunset times for your current location.</p>
+				<H1 id='sunrise'>Loading</H1>
+				<H1 id='sunset'>Loading</H1>
+			</section>
+			<footer id='contactus'>
+				<div class="pure-menu pure-menu-open pure-menu-horizontal">
+                        <ul>
+                            <li class="pure-menu-selected"><a href="index.html">SunSchedule</a></li>
+                            <li><a href="about.html">This App</a></li>
+                            <li><a href="https://squareup.com/market/robert-mccleary/sunschedule-donation-1" target="_blank">Make a $.99 Donation</a></li>
+                        </ul>
+                </div>
+			</footer>
+		</div>
+	</body>
+</html>
