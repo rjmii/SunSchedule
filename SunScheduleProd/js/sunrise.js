@@ -134,10 +134,7 @@ function calcSunrise(dayOffset, lat, lon) {
 	{
 		sunriseTimeM = '0' + sunriseTimeM;
 	}
-	if (sunriseTimeM == 0)
-	{
-		sunriseTimeM = '00';
-	}
+	displaySunriseTime = sunriseTimeH + ':' + sunriseTimeM + ' AM';
 	sunriseTime = new Date(0, 0, 0, sunriseTimeH, sunriseTimeM, 0, 0);
 	//currentTime = new Date(0, 0, 0, now.getHours(), now.getMinutes(), 0, 0);
 	return {
