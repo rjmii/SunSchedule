@@ -1,7 +1,7 @@
 /*
 	The SunSchedule app gives you the current sunrise and sunset time for your current location.
 
-    Copyright (C) 2013  Robert J. McCleary II
+    Copyright (C) 2013-2019  Robert J. McCleary II
 
     The SunSchedule app is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,12 +19,11 @@
 	You can contact Robert J. McCleary II in the following ways.
 
 	Physical Address:
-	3717 S Tafthill RD
-	N239
-	Fort Collins, CO 80526
+	2707 W Cookie Jar Circle
+	Cedar City, UT 84720
 
 	Email Adress:
-	rjmii@spatialanalysts.com
+	robertjmcclearyii@gmail.com
 
 */
 /* This was adapted from http://williams.best.vwh.net/sunrise_sunset_algorithm.htm
